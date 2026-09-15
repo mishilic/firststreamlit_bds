@@ -14,4 +14,4 @@ def load_data():
     return long.sort_values(["ticker", "date"])
 
 df = load_data()
-st.dataframe(df.head())
+st.dataframe(df.head(1))
